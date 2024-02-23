@@ -1,7 +1,9 @@
 # Battle Themes Config Template Project
 ## Getting Started (No Visual Studio)
 This assumes you already have a BGME Battle Themes mod set up and you want to add a config to it.
-* In your mod folder, move any configurable themes to: **MOD_FOLDER/battle-themes/options/**
+
+Before starting, move any configurable themes to: **MOD_FOLDER/battle-themes/options/**
+
 1. Fork the project then open **Mod.cs** on Github for editing.
 2. Follow the instructions for adding new settings.
 3. Commit your changes to your fork.
