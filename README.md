@@ -16,5 +16,5 @@ This assumes you already have a BGME Battle Themes mod set up and you want to ad
     * **BattleThemes.Template.dll** <- Main file for config.
 10. If you make any changes to the config, the only file you need to update in the future is **BattleThemes.Template.dll**.
 11. In your mod folder, open the file **ModConfig.json** in a text editor.
-12. Replace the line **"ModDll": "",** with **"ModDll": "BattleThemes.Template.dll",**.
+12. Replace the line `"ModDll": "",` with `"ModDll": "BattleThemes.Template.dll",`.
 13. Restart **Reloaded** and the **Open Config** button should be available for you mod now.
