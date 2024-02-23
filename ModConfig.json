@@ -10,12 +10,49 @@
   "ModR2RManagedDll64": "x64/BattleThemes.Template.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
+  "Tags": [],
+  "CanUnload": null,
+  "HasExports": null,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "BattleThemes.Template.ReleaseMetadata.json",
-  "PluginData": {},
+  "PluginData": {
+    "GameBananaDependencies": {
+      "IdToConfigMap": {
+        "BGME.BattleThemes": {
+          "Config": {
+            "ItemType": "Mod",
+            "ItemId": 488707
+          },
+          "ReleaseMetadataName": "BGME.BattleThemes.ReleaseMetadata.json"
+        },
+        "BGME.Framework.API": {
+          "Config": {
+            "ItemType": "Mod",
+            "ItemId": 477399
+          },
+          "ReleaseMetadataName": "BGME.Framework.API.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    }
+  },
   "IsUniversalMod": false,
-  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "ModDependencies": [
+    "BGME.BattleThemes"
+  ],
   "OptionalDependencies": [],
-  "SupportedAppId": [],
+  "SupportedAppId": ["p5r.exe", "p4g.exe", "p3p.exe", "p3r.exe"],
   "ProjectUrl": ""
 }
