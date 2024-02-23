@@ -1,0 +1,21 @@
+{
+  "ModId": "BattleThemes.Template",
+  "ModName": "Battle Themes Template Config",
+  "ModAuthor": "",
+  "ModVersion": "1.0.0",
+  "ModDescription": "",
+  "ModDll": "BattleThemes.Template.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/BattleThemes.Template.dll",
+  "ModR2RManagedDll64": "x64/BattleThemes.Template.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "BattleThemes.Template.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [],
+  "ProjectUrl": ""
+}
