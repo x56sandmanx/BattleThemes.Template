@@ -40,6 +40,7 @@ public class Mod : ModBase
          */
 
         this.themeConfig.AddSetting(nameof(this.config.P4G), "p4g.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.KPOP), "kpop.theme.pme");
 
 
         /*-------------------------------------------------------*/
@@ -66,7 +67,12 @@ public class Mod : ModBase
 public class Config : Configurable<Config>
 {
     /* ADD CONFIG SETTINGS HERE */
-
+    [Category("K POP")]
+    [DisplayName("Display Name K POP")]
+    [Description("Description K POP")]
+    [DefaultValue(true)]
+    public bool KPOP { get; set; } = true;
+    
     [Category("Persona 4 Golden")]
     [DisplayName("Time To Make History / Reach Out To The Truth (Persona 4 Golden)")]
     [Description("Context dependent battle music from Persona 4 Golden. Normal\nbattles will play Time To Make History, while\nadvantage battles will play Reach Out To The Truth.\n\nBattle theme: Time To Make History\nAdvantage battle theme: Reach Out To The Truth\nVictory theme: Period")]
