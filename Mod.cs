@@ -39,8 +39,16 @@ public class Mod : ModBase
          * For example, right now the config has a "P4G" setting which enables "p4g.theme.pme" in the options folder.
          */
 
-        this.themeConfig.AddSetting(nameof(this.config.P4G), "p4g.theme.pme");
-        this.themeConfig.AddSetting(nameof(this.config.KPOP), "kpop.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.AES), "aespa.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.BEA), "beast.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.BTS), "bts.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.GID), "gidle.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.GOT), "got7.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.LES), "lesserafim.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.NMI), "nmixx.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.RED), "redvelvet.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.SHI), "shinee.theme.pme");
+        this.themeConfig.AddSetting(nameof(this.config.STA), "stayc.theme.pme");
 
 
         /*-------------------------------------------------------*/
@@ -67,15 +75,63 @@ public class Mod : ModBase
 public class Config : Configurable<Config>
 {
     /* ADD CONFIG SETTINGS HERE */
-    [Category("K POP")]
-    [DisplayName("Display Name K POP")]
-    [Description("Description K POP")]
+    [Category("K POP SONGS")]
+    [DisplayName("Aespa Theme")]
+    [Description("Aespa Theme")]
     [DefaultValue(true)]
-    public bool KPOP { get; set; } = true;
-    
-    [Category("Persona 4 Golden")]
-    [DisplayName("Time To Make History / Reach Out To The Truth (Persona 4 Golden)")]
-    [Description("Context dependent battle music from Persona 4 Golden. Normal\nbattles will play Time To Make History, while\nadvantage battles will play Reach Out To The Truth.\n\nBattle theme: Time To Make History\nAdvantage battle theme: Reach Out To The Truth\nVictory theme: Period")]
+    public bool AES { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("Beast Theme")]
+    [Description("Beast Theme")]
     [DefaultValue(true)]
-    public bool P4G { get; set; } = true;
+    public bool BEA { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("BTS Theme")]
+    [Description("BTS Theme")]
+    [DefaultValue(true)]
+    public bool BTS { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("Gidle Theme")]
+    [Description("Gidle Theme")]
+    [DefaultValue(true)]
+    public bool GID { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("Got7 Theme")]
+    [Description("Got7 Theme")]
+    [DefaultValue(true)]
+    public bool GOT { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("Lesserafim Theme")]
+    [Description("Lesserafim Theme")]
+    [DefaultValue(true)]
+    public bool LES { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("nmixx Theme")]
+    [Description("nmixx Theme")]
+    [DefaultValue(true)]
+    public bool NMI { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("redvelvet Theme")]
+    [Description("redvelvet Theme")]
+    [DefaultValue(true)]
+    public bool RED { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("shinee Theme")]
+    [Description("shinee Theme")]
+    [DefaultValue(true)]
+    public bool SHI { get; set; } = true;
+
+    [Category("K POP SONGS")]
+    [DisplayName("stayc Theme")]
+    [Description("stayc Theme")]
+    [DefaultValue(true)]
+    public bool STA { get; set; } = true;
 }
